@@ -2,7 +2,7 @@
 
 # Overview
 
-**`HypoMtDB`** is a comprehensive mitochondrial genome database of Hypocreales Fungi. As a group with high species diversity and unique evolutionary characteristics in the phylum Ascomycota, Hypocreales plays a crucial role in multiple fields, including material cycling in ecosystems, agricultural production, pharmaceutical research and development, and the study of fungal evolutionary mechanisms. This study integrated the mitochondrial genome data of nearly a thousand strains from **`11 families`** of Hypocreales. At the same time, genome assembly was also performed on some species without mitochondrial genomes.<br>
+**`HypoMtDB`** is a comprehensive mitochondrial genome database of Hypocreales Fungi. As a group with high species diversity and unique evolutionary characteristics in the phylum Ascomycota, Hypocreales plays a crucial role in multiple fields, including material cycling in ecosystems, agricultural production, pharmaceutical research and development, and the study of fungal evolutionary mechanisms. This study integrated the mitochondrial genome data of nearly a thousand strains from **`10 families`** of Hypocreales. At the same time, genome assembly was also performed on some species without mitochondrial genomes.<br>
 
 # Data Structure
 ```
@@ -26,7 +26,8 @@ HypoMtDB/                                                             # 数据�
 │   │       └── Trichoderma_breve_T069                                # Trichoderma breve T069 菌株文件夹
 │   │           ├── Trichoderma_breve_T069.fasta                      # Trichoderma breve T069 菌株线粒体基因组序列
 │   │           ├── Trichoderma_breve_T069.gb                         # Trichoderma breve T069 菌株线粒体基因组 genbank 文件
-│   │           └── Trichoderma_breve_T069.gff                        # Trichoderma breve T069 菌株线粒体基因组 gff3 文件
+│   │           ├── Trichoderma_breve_T069_cds.fasta                  # Trichoderma breve T069 菌株线粒体基因组 cds 文件
+│   │           └── Trichoderma_breve_T069_pep.fasta                  # Trichoderma breve T069 菌株线粒体基因组 pep 文件
 │   ├── Clavicipitaceae/                                              
 │   ├── Cordycipitaceae/
 │   ├── Bionectriaceae/
@@ -50,13 +51,13 @@ HypoMtDB/                                                             # 数据�
 git clone https://github.com/cuihs-nl312/HypoMtDB.git
 ```
 
-# Meta_information
+# Meta information
   Meta_information包含所有样本的基础描述信息，这里我们使用表格文件`Hypocreales_mitogenomes_infor.txt`来展示所有物种线粒体基因组的基础信息。具体信息如下
-| Family | Species | Strain | Abbreviation | Accession | Mitogenome Size (bp) | GC (%) | Complete (Y/N) | Download |Reference | Note. |
-| --- | :---: | :---: |  :---: |  :---: |  :---: | :---: | :---: | :---: | :---: | ---: |
-| Hypocreaceae | Trichoderma breve | T069 | HyTbT069 | PP933710.1 | 26285 | 27.44 | Y | https://www.ncbi.nlm.nih.gov/nuccore/PP933710.1 | https://doi.org/10.3390/ijms252212140 |-- |
+| Family | Species | Strain | Abbreviation | Accession | Mitogenome Size (bp) | GC (%) | Complete (Y/N) | Download |Reference |
+| --- | :---: | :---: |  :---: |  :---: |  :---: | :---: | :---: | :---: | ---: |
+| Hypocreaceae | Trichoderma breve | T069 | HyTbT069 | PP933710.1 | 26285 | 27.44 | Y | https://www.ncbi.nlm.nih.gov/nuccore/PP933710.1 | https://doi.org/10.3390/ijms252212140 |
 
-# Mitogenomes_data
+# Mitogenomes data
   In the Mitogenomes_data directory, mitochondrial genome sequence data and the annotation data of 11 families belonging to Hypocreales are presented. The mitochondrial data of each strain is stored in a separate folder named after the family and genus. The mitochondrial data of each strain is presented as an individual FASTA-formatted file, with the filename containing the species name and strain name.`Trichoderma_breve_T069.fasta `;`Trichoderma_breve_T069.gb`;`Trichoderma_breve_T069.gff`.
 
 # Script
