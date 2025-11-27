@@ -58,7 +58,7 @@ git clone https://github.com/cuihs-nl312/HypoMtDB.git
 | Hypocreaceae | Trichoderma breve | T069 | HyTbT069 | PP933710.1 | 26285 | 27.44 | Y | https://www.ncbi.nlm.nih.gov/nuccore/PP933710.1 | https://doi.org/10.3390/ijms252212140 |
 
 # Mitogenomes data
-  In the Mitogenomes_data directory, mitochondrial genome sequence data and the annotation data of 11 families belonging to Hypocreales are presented. The mitochondrial data of each strain is stored in a separate folder named after the family and genus. The mitochondrial data of each strain is presented as an individual FASTA-formatted file, with the filename containing the species name and strain name.`Trichoderma_breve_T069.fasta `;`Trichoderma_breve_T069.gb`;`Trichoderma_breve_T069.gff`.
+  In the Mitogenomes_data directory, mitochondrial genome sequence data and the annotation data of 11 families belonging to Hypocreales are presented. The mitochondrial data of each strain is stored in a separate folder named after the family and genus. The mitochondrial data of each strain is presented as an individual FASTA-formatted file, with the filename containing the species name and strain name.`Trichoderma_breve_T069.fasta `; `Trichoderma_breve_T069.gb`; `Trichoderma_breve_T069_cds.fasta `; `Trichoderma_breve_T069_pep.fasta`.
 
 # Script
 
