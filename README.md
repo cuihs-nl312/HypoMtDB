@@ -8,6 +8,7 @@
 ```
 HypoMtDB/                                                             # 数据库根目录
 ├── README.md                                                         # 数据库说明文档（核心导航，含目录、使用指南）
+├── HypoMtDB.html                                                     # 开源许可（如 MIT 协议，明确数据使用、修改规则）
 ├── LICENSE                                                           # 开源许可（如 MIT 协议，明确数据使用、修改规则）
 ├── meta_information/                                                 # 元信息文件夹（存储所有样本的基础描述信息）
 │   ├── Hypocreales_mitogenomes_infor.txt                             # 样本总表：包含物种名、样本ID、Accession、Reference等
