@@ -1,0 +1,71 @@
+LOCUS       NW_027094014           96363 bp    DNA     circular CON 26-JUN-2024
+DEFINITION  Metarhizium acridum strain ARSEF 324 mitochondrion, complete
+            sequence, whole genome shotgun sequence.
+ACCESSION   NW_027094014
+VERSION     NW_027094014.1
+DBLINK      BioProject: PRJNA1128558
+            BioSample: SAMN18235592
+            Assembly: GCF_019434415.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      mitochondrion Metarhizium acridum
+  ORGANISM  Metarhizium acridum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Hypocreomycetidae; Hypocreales; Clavicipitaceae;
+            Metarhizium.
+REFERENCE   1  (bases 1 to 96363)
+  AUTHORS   Nielsen,K.N., Salgado,J.F.M., Natsopoulou,M.E., Kristensen,T.,
+            Stajich,J.E. and De Fine Licht,H.H.
+  TITLE     Diploidy within a haploid genus of entomopathogenic fungi
+  JOURNAL   Genome Biol Evol (2021) In press
+   PUBMED   34247231
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 96363)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUN-2024) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 96363)
+  AUTHORS   Salgado,J.F.M., Nielsen,K.N., Natsopoulou,M.E., Stajich,J.E. and
+            Licht,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-APR-2021) Microbiology and Plant Pathology,
+            University of California, Riverside, 900 University Ave, Riverside,
+            CA 92521, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to CM033467.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: MAR-2020
+            Assembly Method        :: canu v. 2.0; arrow v. 2.3.3
+            Assembly Name          :: Coph_MacrARSEF324_H1_v1.0
+            Diploid                :: Principal pseudohaplotype
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 184.0x
+            Sequencing Technology  :: PacBio Sequel; BGISeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..96363
+                     /organism="Metarhizium acridum"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /strain="ARSEF 324"
+                     /isolation_source="M. acridum strain ARSEF 324 was
+                     isolated in 1979 from a spur-throated locust (Austracris
+                     guttulosa) in Australia and obtained from the ARSEF
+                     collection (ARS Collection of Entomopathogenic Fungal
+                     Cultures, Ithaca, New York)."
+                     /host="Austracris guttulosa"
+                     /db_xref="taxon:92637"
+                     /geo_loc_name="Australia: Queensland"
+                     /lat_lon="27.4746 S 152.9907 E"
+                     /collection_date="1979-02"
+CONTIG      join(JAGRQK010000036.1:1..96363)
+//

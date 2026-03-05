@@ -1,0 +1,68 @@
+LOCUS       CM033364               78754 bp    DNA     circular CON 30-JUL-2021
+DEFINITION  Fusarium venenatum strain A3/5 mitochondrion, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM033364 MXQG01000000
+VERSION     CM033364.1
+DBLINK      BioProject: PRJNA376531
+            BioSample: SAMN06434785
+KEYWORDS    WGS.
+SOURCE      mitochondrion Fusarium venenatum
+  ORGANISM  Fusarium venenatum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Hypocreomycetidae; Hypocreales; Nectriaceae;
+            Fusarium.
+REFERENCE   1  (bases 1 to 78754)
+  AUTHORS   Greenfield,B.P., Armitage,A.D., Deakin,G., Wilson,F.M., Bates,H.
+            and Harrison,R.J.
+  TITLE     Differences in Fusarium venenatum metabolism in response to growth
+            media
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 78754)
+  AUTHORS   Armitage,A.D., Bates,H., Wilson,F.M., Greenfield,B.P. and
+            Harrison,R.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAY-2017) Genetics, Genomics and Breeding, NIAB-East
+            Malling Research, New Road, East Malling, Kent ME19 6BJ, United
+            Kingdom
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 14-AUG-2015
+            Assembly Method        :: SPAdes v. 3.5.0
+            Expected Final Version :: no
+            Genome Coverage        :: 175.0x
+            Sequencing Technology  :: Illumina
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Date     :: May-2017
+            Annotation Method   :: Ab initio gene prediction: Braker 1.9 and
+                                   CodingQuary 2.0; Functional annotation:
+                                   Swissprot (July 2016 release) and
+                                   Interproscan 5.18-57.0
+            Annotation Provider :: Harrison Lab NIAB-EMR
+            Annotation Version  :: Release 1.00
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..78754
+                     /organism="Fusarium venenatum"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /strain="A3/5"
+                     /isolation_source="soil"
+                     /db_xref="taxon:56646"
+     gene            complement(<12636..>13178)
+                     /locus_tag="FVEN_g13212"
+     mRNA            complement(<12636..>13178)
+                     /locus_tag="FVEN_g13212"
+                     /product="hypothetical protein"
+     CDS             complement(12636..13178)
+                     /locus_tag="FVEN_g13212"
+                     /codon_start=1
+                     /transl_table=4
+                     /product="hypothetical protein"
+                     /protein_id="KAG8349399.1"
+                     /translation="METINPILLLPDQPTSPINTQANEEEAGKPEVPLISGDDMTSEG
+                     ELAFSPQFFIPESTPDSISSDNSSPINTQANQGMGEILESNLVNRGEPMQVDGDLYRE
+                     VMNNAEGEAAMETINPILLLPDLPTSNPEPKDTEDSPLFTEDSPLSIMSESEFFELER
+                     EISKLGKYIGRGKKGQSSSK"
+CONTIG      join(MXQG01000071.1:1..78754)
+//
