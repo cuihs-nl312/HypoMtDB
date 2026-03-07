@@ -3,7 +3,7 @@
 # Overview
 
 **`HypoMtDB`** is a comprehensive mitochondrial genome database of Hypocreales Fungi. As a group with high species diversity and unique evolutionary characteristics in the phylum Ascomycota, Hypocreales plays a crucial role in multiple fields, including material cycling in ecosystems, agricultural production, pharmaceutical research and development, and the study of fungal evolutionary mechanisms. This study integrated the mitochondrial genome data of nearly a thousand strains from **`10 families 1367 mitogenomes`** of Hypocreales. At the same time, genome assembly was also performed on some species without mitochondrial genomes.<br>
-
+The statistics of mitochondrial genome data of Hypocreales are shown in the following figure
 | Family | Total | NCBI (complete) | NCBI(partial) | Assembly (complete) | Assembly (partial) | NCBI genera| Assembled genera /new |
 | --- | :---: | :---: |  :---: |  :---: |  :---: | :---:  | ---: |
 |Bionectriaceae|85|8|2|51|24|3|5 (3)|
