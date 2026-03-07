@@ -2,7 +2,22 @@
 
 # Overview
 
-**`HypoMtDB`** is a comprehensive mitochondrial genome database of Hypocreales Fungi. As a group with high species diversity and unique evolutionary characteristics in the phylum Ascomycota, Hypocreales plays a crucial role in multiple fields, including material cycling in ecosystems, agricultural production, pharmaceutical research and development, and the study of fungal evolutionary mechanisms. This study integrated the mitochondrial genome data of nearly a thousand strains from **`10 families`** of Hypocreales. At the same time, genome assembly was also performed on some species without mitochondrial genomes.<br>
+**`HypoMtDB`** is a comprehensive mitochondrial genome database of Hypocreales Fungi. As a group with high species diversity and unique evolutionary characteristics in the phylum Ascomycota, Hypocreales plays a crucial role in multiple fields, including material cycling in ecosystems, agricultural production, pharmaceutical research and development, and the study of fungal evolutionary mechanisms. This study integrated the mitochondrial genome data of nearly a thousand strains from **`10 families 1367 mitogenomes`** of Hypocreales. At the same time, genome assembly was also performed on some species without mitochondrial genomes.<br>
+
+| Family | Total | NCBI (complete) | NCBI(partial) | Assembly (complete) | Assembly (partial) | NCBI genera| Assembled genera /new |
+| --- | :---: | :---: |  :---: |  :---: |  :---: | :---:  | ---: |
+|Bionectriaceae|85|8|2|51|24|3|5 (3)|
+|Clavicipitaceae|161|69|3|51|38|6|7 (4)|
+|Cordycipitaceae|112|83|15|9|5|11|7 (3)|
+|Hypocreaceae|187|65|12|64|46|4|5 (3)|
+|Nectriaceae|697|563|122|6|6|4|7 (5)|
+|Niessliaceae|1|0|0|1|0|0|1 (1)|
+|Ophiocordycipitaceae|73|49|8|11|5|8|4 (1)|
+|Pseudodiplooaporaceae|1|1|0|0|0|1|0 (0)|
+|Sarocladiaceae|39|1|0|11|27|1|1 (0)|
+|Stachybotryaceae|11|0|0|11|0|0|3 (3)|
+|Total|1367|839|162|215|151|38|40 (23)|
+
 
 # Data Structure
 ```
@@ -57,6 +72,7 @@ git clone https://github.com/cuihs-nl312/HypoMtDB.git
 | Family | Species | Strain | Abbreviation | Accession | Mitogenome Size (bp) | GC (%) | Complete (Y/N) | Download |Reference |
 | --- | :---: | :---: |  :---: |  :---: |  :---: | :---: | :---: | :---: | ---: |
 | Hypocreaceae | Trichoderma breve | T069 | HyTbT069 | PP933710.1 | 26285 | 27.44 | Y | https://www.ncbi.nlm.nih.gov/nuccore/PP933710.1 | https://doi.org/10.3390/ijms252212140 |
+
 
 # Mitogenomes data
   In the Mitogenomes_data directory, mitochondrial genome sequence data and the annotation data of 11 families belonging to Hypocreales are presented. The mitochondrial data of each strain is stored in a separate folder named after the family and genus. The mitochondrial data of each strain is presented as an individual FASTA-formatted file, with the filename containing the species name and strain name.`Trichoderma_breve_T069.fasta `; `Trichoderma_breve_T069.gb`; `Trichoderma_breve_T069_cds.fasta `; `Trichoderma_breve_T069_pep.fasta`.
